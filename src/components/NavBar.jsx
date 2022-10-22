@@ -1,3 +1,4 @@
+import {Link,NavLink} from 'react-router-dom';
 function NavBar() {
     return ( 
         
@@ -14,9 +15,9 @@ function NavBar() {
             </a>
           </div>
           <div className="w3-col s3">
-            <a href="#menu" className="w3-button w3-block w3-black">
+            <Link className="w3-button w3-block w3-black" to="/menu">
               MENU
-            </a>
+            </Link>
           </div>
           <div className="w3-col s3">
             <a href="#where" className="w3-button w3-block w3-black">
